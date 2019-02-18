@@ -1,0 +1,16 @@
+projects:
+  photoalbums:
+    schemaPath: src\graphql\schema.json
+    includes:
+      - src\graphql\**\*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src\graphql
+        graphQLApiId: x4kimwtymnagbekxzz7xtphnji
+      endpoints:
+        prod: >-
+          https://7ywmlxdr5ral7ebolzppkxiyky.appsync-api.us-east-1.amazonaws.com/graphql

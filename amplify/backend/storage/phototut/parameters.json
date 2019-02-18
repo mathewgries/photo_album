@@ -1,0 +1,13 @@
+{
+    "bucketName": "phototutbucket",
+    "authPolicyName": "s3_amplify_79ab6ecf",
+    "unauthPolicyName": "s3_amplify_79ab6ecf",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authPermissions": "rw",
+    "unauthPermissions": ""
+}

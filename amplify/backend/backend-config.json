@@ -1,0 +1,23 @@
+{
+	"auth": {
+		"cognitoebab60a8": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"api": {
+		"photoalbums": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "AMAZON_COGNITO_USER_POOLS"
+			}
+		}
+	},
+	"storage": {
+		"phototut": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
